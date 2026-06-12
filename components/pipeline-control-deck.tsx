@@ -116,7 +116,7 @@ export function PipelineControlDeck() {
 
       for (let index = animationStep + 1; index < layers.length; index += 1) {
         setActiveStep(index);
-        await new Promise((resolve) => window.setTimeout(resolve, 420));
+        await new Promise((resolve) => window.setTimeout(() => resolve(undefined), 420));
       }
 
       setCompleted(true);
