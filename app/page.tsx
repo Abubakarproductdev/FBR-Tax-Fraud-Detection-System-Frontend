@@ -1,5 +1,5 @@
-import { IntelligenceDashboard } from "@/components/intelligence-dashboard";
+import { CinematicIntelligenceHub } from "@/components/cinematic-intelligence-hub";
 
 export default function HomePage() {
-  return <IntelligenceDashboard />;
+  return <CinematicIntelligenceHub />;
 }
