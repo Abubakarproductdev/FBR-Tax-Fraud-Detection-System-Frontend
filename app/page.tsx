@@ -1,5 +1,5 @@
-import { CinematicIntelligenceHub } from "@/components/cinematic-intelligence-hub";
+import { MatrixPage } from "@/components/matrix-page";
 
 export default function HomePage() {
-  return <CinematicIntelligenceHub />;
+  return <MatrixPage />;
 }
